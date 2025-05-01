@@ -1,4 +1,4 @@
-<<<<<<<<Flowcharts & Pseudocodes>>>>>>>>
+# > Flowcharts & Pseudocodes
 
 ## What Is a Flowchart?
 
