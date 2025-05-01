@@ -1,4 +1,4 @@
-# <<<<<<<Loops (Flow Control)>>>>>>>
+# > Loops (Flow Control)
 
 ## 1. The `for` Loop
 
