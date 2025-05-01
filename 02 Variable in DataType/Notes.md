@@ -1,4 +1,4 @@
-<<<<<<Variables & Data Types >>>>>>
+# > Variables & Data Types
 
 ## 1. Variable Declaration, Initialization, and Assignment
 
