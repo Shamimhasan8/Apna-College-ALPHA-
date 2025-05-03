@@ -136,6 +136,44 @@ public class Questions {
             }
         }
 
+        // NUMBER PYRAMID pattern
+        public static void number_pyramid(int n){
+            // outer loop 
+            for (int i = 1; i <= n; i++){
+                // print spaces
+                for (int j = 1; j <= n - i; j++){
+                    System.out.print(" ");
+                }
+                // print numbers 
+                for (int j = 1; j <= i; j++){
+                    System.out.print(i + " ");
+                }
+                // print new line at the end of each row
+                System.out.println();
+            }
+        }
+
+        // PALINDROMIC Pattern with Numbers pattern
+        public static void palindromic_pattern(int n){
+            // outer loop for rows
+            for (int i = 1; i <= n; i++){
+                // inner loop for spaces
+                for (int j = 1; j <= n - i; j++){
+                    System.out.print(" ");
+                }
+                // inner loop for numbers in decreasing order
+                for (int j = i ; j >= 1; j--){
+                    System.out.print(j);
+                }
+                // inner loop for numbers in ascending order
+                for (int j = 2; j <= i; j++){
+                    System.out.print(j);
+                }
+                // print new line at the end of each row
+                System.out.println();
+            }
+        }
+
     
     public static void main(String[] args){
         HOLLOW_RECTANGLE(4, 5);
@@ -146,5 +184,7 @@ public class Questions {
         solid_rhombus(5);
         hollow_rhombus(5, 5);
         diamond(5);
+        number_pyramid(5);
+        palindromic_pattern(5);
     }
 }
